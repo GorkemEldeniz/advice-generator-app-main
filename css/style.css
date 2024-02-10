@@ -13,12 +13,15 @@
 
 body,
 html {
-  max-width: 1440px;
-  min-height:100vh;
-  margin-inline: auto;
   font-size: 28px;
   font-family: 'Manrope', sans-serif;
   background-color: var(--dark-blue);
+}
+
+.wrapper {
+  margin-inline: auto;
+  max-width: 1440px;
+  min-height:100vh;
   display: flex;
   align-items: center;
   justify-content:center;
