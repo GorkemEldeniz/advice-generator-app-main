@@ -14,13 +14,14 @@
 body,
 html {
   max-width: 1440px;
-  min-height:100dvh;
+  min-height:100vh;
   margin-inline: auto;
   font-size: 28px;
   font-family: 'Manrope', sans-serif;
   background-color: var(--dark-blue);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .card {
