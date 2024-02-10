@@ -14,6 +14,7 @@
 body,
 html {
   max-width: 1440px;
+  min-height:100dvh;
   margin-inline: auto;
   font-size: 28px;
   font-family: 'Manrope', sans-serif;
